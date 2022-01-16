@@ -1,0 +1,6 @@
+Note:
+
+1. We will set the website Responsive.
+2. Sharing with you assets folder for all the required images.
+3. Hover 1 and Hover 2 is Mandatory.
+4. Use fonts family similar to design.

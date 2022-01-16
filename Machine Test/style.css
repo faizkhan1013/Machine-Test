@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* <!-- Header Section style --> */
+#header{
+    position:absolute;
+    z-index: 10;
+    width: 100%;
+}
+
+
+#header .nav-link{
+    color: #ccc !important;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 10px;
+}
+
+#header .nav-link:hover{
+    background: #dcdde1 !important;
+    color: #262626 !important;
+    border-radius: 5px;
+    transition: all 0.6s ease 0s;
+}
+
+/* <!-- main Section style --> */
+
+.main{
+    position: relative;
+    background: url(./Assets/bnr-bg.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.main h1{
+    font-size: 2.4rem;
+    color: #dcdde1;
+    text-align: center;
+}
+.main .input-group>.form-control{
+    min-height: 60px;
+}
+.advnc .border-bd{
+    border-bottom: 1px dotted #fff;
+}
+
+/* <!-- Map Section style --> */
+
+.map h1{
+    font-size: 2.6rem;
+    color: #7C99AC;
+}
+
+.map h4,p{
+    color: #7C99AC;
+}
+
+/* <!-- Help Section style --> */
+
+.help{
+    background: #EEF2FF;
+}
+.help img{
+    min-height: 137px;
+    margin-bottom: 20px;
+}
+
+.help h1,p{
+    color: #7C99AC;
+}
+.front{
+    min-height: 245px;
+}
+.front:hover + .back{
+    display: flex;
+    transition: background-color 5s ease;
+    align-items: center;
+}
+.back{
+    background: rgb(22 154 151 / 50%);
+    top: 0;
+    display: none;
+    transition: background-color 5s ease;
+    height: 100%;
+}
+.back p{
+    text-align: justify;
+    margin:0;
+    color: #fff;
+}
+/* <!-- Recent Section style --> */
+
+.recent h1{
+    color: #7C99AC;
+}
+
+
+/* <!-- Footer Section style --> */
+.footer{
+    background: #4FBDBA;
+}
+
+footer{
+    background: #1A5F7A;
+}
